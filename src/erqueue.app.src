@@ -1,0 +1,11 @@
+{application, erqueue,
+ [
+  {description, "Queue using ETS"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.

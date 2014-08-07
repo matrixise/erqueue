@@ -1,0 +1,16 @@
+*.beam
+*.o
+*.plt
+*.swp
+.DS_Store
+.eunit
+.rebar
+deps
+doc/*.css
+doc/*.html
+doc/edoc-info
+doc/erlang.png
+ebin
+edoc-info
+erl_crash.dump
+doc/utf8
