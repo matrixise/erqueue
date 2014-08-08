@@ -17,7 +17,7 @@ The erqueue module implements a queue using the ETS module of Erlang.
 
 ## Example
 
-```erlang
+```
 Queue = erqueue:new(),
 true = erqueue:is_empty(Queue),
 ok = erqueue:put(Queue, <<"hello world!">>),
